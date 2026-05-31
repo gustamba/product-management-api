@@ -1,0 +1,5 @@
+/home/gustamba/Documentos/JAVA_CRUD/JAVACRUD/src/main/java/com/example/demo/DemoApplication.java
+/home/gustamba/Documentos/JAVA_CRUD/JAVACRUD/src/main/java/com/example/demo/controller/StockController.java
+/home/gustamba/Documentos/JAVA_CRUD/JAVACRUD/src/main/java/com/example/demo/entity/Stock.java
+/home/gustamba/Documentos/JAVA_CRUD/JAVACRUD/src/main/java/com/example/demo/repository/StockRepository.java
+/home/gustamba/Documentos/JAVA_CRUD/JAVACRUD/src/main/java/com/example/demo/service/StockService.java
