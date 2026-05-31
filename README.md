@@ -4,7 +4,10 @@ Projeto de estudo desenvolvido para praticar conceitos fundamentais do ecossiste
 
 A aplicação implementa um CRUD (Create, Read, Update e Delete) de produtos utilizando uma API REST integrada ao PostgreSQL.
 
-O projeto foi desenvolvido seguindo o tutorial "Seu primeiro CRUD em Java com Spring", servindo como base para aprendizado de desenvolvimento backend com Java.
+O projeto foi desenvolvido seguindo o tutorial "[Seu primeiro CRUD em Java com Spring](https://medium.com/@lucssslucsss/seu-primeiro-crud-em-java-com-spring-0c1dfd476a70)
+", servindo como base para aprendizado de desenvolvimento backend com Java.
+
+[Seu primeiro CRUD em Java com Spring](https://medium.com/@lucssslucsss/seu-primeiro-crud-em-java-com-spring-0c1dfd476a70)
 
 ## Tecnologias
 
