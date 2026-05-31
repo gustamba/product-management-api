@@ -53,6 +53,14 @@ src
 docker compose up -d
 ```
 
+### Crie o banco
+
+Acesse
+```
+http://localhost:8080
+```
+Crie o banco stock
+
 ### Executar a aplicação
 
 ```bash
