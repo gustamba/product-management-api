@@ -1,129 +1,90 @@
-# Product Management API
+# Spring Boot CRUD API
 
-API REST desenvolvida com Java e Spring Boot para gerenciamento de produtos.
+Projeto de estudo desenvolvido para praticar conceitos fundamentais do ecossistema Spring Boot.
 
-Este projeto foi criado com objetivo de praticar conceitos fundamentais do desenvolvimento backend moderno utilizando Java, Spring Boot, PostgreSQL e Docker.
+A aplicação implementa um CRUD (Create, Read, Update e Delete) de produtos utilizando uma API REST integrada ao PostgreSQL.
 
-## Tecnologias Utilizadas
+O projeto foi desenvolvido seguindo o tutorial "Seu primeiro CRUD em Java com Spring", servindo como base para aprendizado de desenvolvimento backend com Java.
+
+## Tecnologias
 
 * Java 17
 * Spring Boot 3
-* Spring Web
 * Spring Data JPA
-* PostgreSQL 16
+* PostgreSQL
 * Docker
 * Maven
-* Lombok
 
-## Arquitetura
+## Conceitos praticados
 
-O projeto segue uma arquitetura em camadas:
+* API REST
+* Controllers
+* Services
+* Repositories
+* JPA/Hibernate
+* Persistência de dados
+* Injeção de dependência
+* Docker Compose
+* Integração com PostgreSQL
+
+## Estrutura do projeto
 
 ```text
-controller  -> Recebe requisições HTTP
-service     -> Regras de negócio
-repository  -> Acesso aos dados
-entity      -> Modelagem das entidades
+src
+├── controller
+├── entity
+├── repository
+├── service
+└── resources
 ```
 
 ## Funcionalidades
 
 * Criar produto
-* Listar produtos
 * Buscar produto por ID
 * Atualizar produto
-* Remover produto
+* Excluir produto
 
-## Executando o Projeto
+## Executando o projeto
 
-### 1. Clonar o repositório
-
-```bash
-git clone https://github.com/seu-usuario/product-management-api.git
-```
-
-### 2. Subir o PostgreSQL
+### Subir o PostgreSQL
 
 ```bash
 docker compose up -d
 ```
 
-### 3. Executar a aplicação
+### Executar a aplicação
 
 ```bash
 mvn spring-boot:run
 ```
 
-A aplicação ficará disponível em:
+A API ficará disponível em:
 
 ```text
-http://localhost:8080
+http://localhost:8081
 ```
 
 ## Endpoints
 
-### Criar produto
+| Método | Endpoint        | Descrição         |
+| ------ | --------------- | ----------------- |
+| POST   | /api/stock      | Criar produto     |
+| GET    | /api/stock/{id} | Buscar produto    |
+| PUT    | /api/stock/{id} | Atualizar produto |
+| DELETE | /api/stock/{id} | Excluir produto   |
 
-POST /products
+## Próximos passos
 
-```json
-{
-  "name": "Notebook",
-  "price": 4500
-}
-```
-
-### Listar produtos
-
-GET /products
-
-### Buscar produto por ID
-
-GET /products/{id}
-
-### Atualizar produto
-
-PUT /products/{id}
-
-```json
-{
-  "name": "Notebook Gamer",
-  "price": 6500
-}
-```
-
-### Remover produto
-
-DELETE /products/{id}
-
-## Banco de Dados
-
-O banco PostgreSQL é executado em container Docker através do arquivo docker-compose.yml.
-
-## Aprendizados
-
-Durante o desenvolvimento deste projeto foram praticados os seguintes conceitos:
-
-* Desenvolvimento de APIs REST
-* Spring Boot
-* Injeção de Dependências
-* JPA/Hibernate
-* Persistência de dados com PostgreSQL
-* Docker
-* Maven
-* Arquitetura em camadas
-* Operações CRUD
-
-## Próximas Melhorias
+Melhorias que pretendo implementar para aprofundar os estudos:
 
 * DTOs
 * Bean Validation
 * Tratamento global de exceções
 * Swagger/OpenAPI
-* Spring Security + JWT
 * Testes unitários
-* Dockerização completa da aplicação
-* Deploy em nuvem
+* Spring Security com JWT
+* Deploy da aplicação
 
 ```
 ```
