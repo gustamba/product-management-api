@@ -7,8 +7,6 @@ A aplicação implementa um CRUD (Create, Read, Update e Delete) de produtos uti
 O projeto foi desenvolvido seguindo o tutorial "[Seu primeiro CRUD em Java com Spring](https://medium.com/@lucssslucsss/seu-primeiro-crud-em-java-com-spring-0c1dfd476a70)
 ", servindo como base para aprendizado de desenvolvimento backend com Java.
 
-[Seu primeiro CRUD em Java com Spring](https://medium.com/@lucssslucsss/seu-primeiro-crud-em-java-com-spring-0c1dfd476a70)
-
 ## Tecnologias
 
 * Java 17
